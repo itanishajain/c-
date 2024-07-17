@@ -5,7 +5,7 @@ class MyVec{
     public:
     T *arr;
     int size;
-    MyVec(int m){
+    MyVec(T m){
         size = m;
         arr = new T[size];
     }
