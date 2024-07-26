@@ -7,7 +7,7 @@ int main(){
     // Function Objects(Functor) : Functions wrapped in a class so that it can be available like an object. 
     int arr[] = {1, 2, 7, 4, 6, 5, 3} ;
     sort(arr, arr+7);
-    sort(arr, arr+7, greater<int>());
+    //sort(arr, arr+7, greater<int>());
     for (int i = 0; i < 7; i++)
     {
         cout << arr[i] << endl;
